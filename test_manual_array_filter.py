@@ -7,7 +7,7 @@ class TestArrayFilter(unittest.TestCase):
       data = [
           {"type": "A"},
           {"type": "B"},
-unitt          {"type": "A"}
+          {"type": "A"}
       ]
       result = array_filter(data, "type", "A")
       self.assertEqual(result, [{"type", "B"}])
